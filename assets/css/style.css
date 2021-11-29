@@ -85,6 +85,9 @@ nav #navigation .navlinks .navlink a {
 .video {
   padding: 4rem 2rem;
 }
+.video iframe {
+  height: 650px;
+}
 
 .ads {
   background-color: #fff;
@@ -288,6 +291,13 @@ footer form button {
   }
   nav .nav-container #navigation .navlinks .navlink {
     margin: 0.5rem 1rem;
+  }
+
+  .video {
+    padding: 2rem 2rem;
+  }
+  .video iframe {
+    height: 350px;
   }
 
   footer {

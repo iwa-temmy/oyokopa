@@ -104,6 +104,10 @@ nav {
 
 .video {
   padding: 4rem 2rem;
+
+  iframe {
+    height: 650px;
+  }
 }
 
 .ads {
@@ -279,6 +283,7 @@ footer {
 
 .contact-us {
   padding: 3rem 2rem;
+
   .bg {
     background-color: #fff !important;
     border-radius: 16px;
@@ -286,26 +291,34 @@ footer {
     padding: 1.5rem 2rem;
     box-shadow: 0 5px 10px rgba(94, 84, 84, 0.2);
   }
-  form{
+
+  form {
     width: 90%;
-    label{
+
+    label {
       margin: 1rem 0;
     }
-    .form-control{
+
+    .form-control {
       padding: 1rem;
-      background-color: #F2F3F6;;
+      background-color: #F2F3F6;
+      ;
     }
   }
-  p{
+
+  p {
     font-size: 0.9rem;
   }
-  .d-flex{
+
+  .d-flex {
     padding: 1rem 0;
-    li{
+
+    li {
       list-style: none;
     }
   }
-  ul{
+
+  ul {
     margin: 0.2rem 0;
   }
 }
@@ -350,13 +363,23 @@ footer {
     }
   }
 
-  footer{
+  .video {
+    padding: 2rem 2rem;
+
+    iframe {
+      height: 350px;
+    }
+  }
+
+  footer {
     padding: 3rem 1rem;
-    .px-5{
+
+    .px-5 {
       padding-left: 0 !important;
       padding-right: 0 !important;
     }
   }
+
   .posts {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -383,9 +406,11 @@ footer {
     }
   }
 }
-.contact-us{
+
+.contact-us {
   padding: 3rem 1rem;
-  form{
+
+  form {
     width: 100%;
   }
 }
