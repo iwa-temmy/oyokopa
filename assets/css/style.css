@@ -240,6 +240,12 @@ footer form button {
 .contact-us form .form-control {
   padding: 1rem 1.5rem;
 }
+.contact-us .d-flex {
+  padding: 1rem;
+}
+.contact-us .d-flex li {
+  list-style: none;
+}
 
 @media only screen and (max-width: 576px) {
   nav {
@@ -274,6 +280,14 @@ footer form button {
     margin: 0.5rem 1rem;
   }
 
+  footer {
+    padding: 3rem 1rem;
+  }
+  footer .px-5 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
   .posts {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -292,4 +306,7 @@ footer form button {
   .local-government .card .cardinal-image {
     height: 200px;
   }
+}
+.contact-us {
+  padding: 3rem 1rem;
 }

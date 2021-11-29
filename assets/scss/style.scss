@@ -294,6 +294,12 @@ footer {
       padding: 1rem 1.5rem;
     }
   }
+  .d-flex{
+    padding: 1rem;
+    li{
+      list-style: none;
+    }
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -336,6 +342,13 @@ footer {
     }
   }
 
+  footer{
+    padding: 3rem 1rem;
+    .px-5{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
   .posts {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -361,4 +374,7 @@ footer {
       }
     }
   }
+}
+.contact-us{
+  padding: 3rem 1rem;
 }
