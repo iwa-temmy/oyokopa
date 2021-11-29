@@ -283,22 +283,30 @@ footer {
     background-color: #fff !important;
     border-radius: 16px;
     margin-top: 1.5rem;
-    padding: 1.5rem;
+    padding: 1.5rem 2rem;
     box-shadow: 0 5px 10px rgba(94, 84, 84, 0.2);
   }
   form{
+    width: 90%;
     label{
       margin: 1rem 0;
     }
     .form-control{
-      padding: 1rem 1.5rem;
+      padding: 1rem;
+      background-color: #F2F3F6;;
     }
   }
+  p{
+    font-size: 0.9rem;
+  }
   .d-flex{
-    padding: 1rem;
+    padding: 1rem 0;
     li{
       list-style: none;
     }
+  }
+  ul{
+    margin: 0.2rem 0;
   }
 }
 
@@ -377,4 +385,7 @@ footer {
 }
 .contact-us{
   padding: 3rem 1rem;
+  form{
+    width: 100%;
+  }
 }
