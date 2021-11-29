@@ -19,12 +19,17 @@ body {
 
 nav {
   background-color: $background;
+  padding: 4rem 0rem 0.5rem 0;
 
   .logo {
     height: 90px;
   }
 
-  main {
+  .hamburger {
+    display: none;
+  }
+
+  #navigation {
     width: 78%;
     margin-left: 13%;
 
@@ -34,8 +39,12 @@ nav {
 
       .navlink {
         list-style: none;
-        color: $primary-color;
         justify-content: space-between;
+
+        a {
+          color: $primary-color;
+          text-decoration: none;
+        }
       }
     }
   }
@@ -225,13 +234,14 @@ footer {
 .local-government {
   padding: 3rem 2rem;
 
-  .bg{
+  .bg {
     background-color: #fff !important;
     border-radius: 16px;
     margin-top: 1.5rem;
     padding: 1.5rem;
     box-shadow: 0 5px 10px rgba(94, 84, 84, 0.2);
   }
+
   .card {
     height: 800px;
     border-radius: 32px;
@@ -267,30 +277,62 @@ footer {
   }
 }
 
+.contact-us {
+  padding: 3rem 2rem;
+  .bg {
+    background-color: #fff !important;
+    border-radius: 16px;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 5px 10px rgba(94, 84, 84, 0.2);
+  }
+  form{
+    label{
+      margin: 1rem 0;
+    }
+    .form-control{
+      padding: 1rem 1.5rem;
+    }
+  }
+}
+
 @media only screen and (max-width: 576px) {
 
   nav {
     background-color: $background;
+    padding: 2rem 0rem;
 
-    .logo {
-      height: 90px;
-    }
+    .nav-container {
+      width: 100%;
+      flex-wrap: wrap;
 
-    main {
-      display: none;
-      // width: 78%;
-      // margin-left: 13%;
+      .logo {
+        height: 40px;
+      }
 
-      // .navlinks {
-      //   margin-left: -8%;
-      //   margin-top: 4%;
+      .hamburger {
+        display: block;
+      }
 
-      //   .navlink {
-      //     list-style: none;
-      //     color: $primary-color;
-      //     justify-content: space-between;
-      //   }
-      // }
+      #navigation {
+        display: none;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 8%;
+        -webkit-transition: transform 1s ease-out, visibility 1s;
+        -moz-transition: transform 1s ease-out, visibility 1s;
+        -o-transition: transform 1s ease-out, visibility 1s;
+        -ms-transition: transform 1s ease-out, visibility 1s;
+        transition: transform 1s ease-out, visibility 1s;
+
+        .navlinks {
+          flex-direction: column;
+
+          .navlink {
+            margin: 0.5rem 1rem;
+          }
+        }
+      }
     }
   }
 

@@ -13,22 +13,29 @@ body {
 
 nav {
   background-color: #E5E5E5;
+  padding: 4rem 0rem 0.5rem 0;
 }
 nav .logo {
   height: 90px;
 }
-nav main {
+nav .hamburger {
+  display: none;
+}
+nav #navigation {
   width: 78%;
   margin-left: 13%;
 }
-nav main .navlinks {
+nav #navigation .navlinks {
   margin-left: -8%;
   margin-top: 4%;
 }
-nav main .navlinks .navlink {
+nav #navigation .navlinks .navlink {
   list-style: none;
-  color: #008753;
   justify-content: space-between;
+}
+nav #navigation .navlinks .navlink a {
+  color: #008753;
+  text-decoration: none;
 }
 
 .carousel {
@@ -217,15 +224,54 @@ footer form button {
   font-size: 1.2rem;
 }
 
+.contact-us {
+  padding: 3rem 2rem;
+}
+.contact-us .bg {
+  background-color: #fff !important;
+  border-radius: 16px;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 5px 10px rgba(94, 84, 84, 0.2);
+}
+.contact-us form label {
+  margin: 1rem 0;
+}
+.contact-us form .form-control {
+  padding: 1rem 1.5rem;
+}
+
 @media only screen and (max-width: 576px) {
   nav {
     background-color: #E5E5E5;
+    padding: 2rem 0rem;
   }
-  nav .logo {
-    height: 90px;
+  nav .nav-container {
+    width: 100%;
+    flex-wrap: wrap;
   }
-  nav main {
+  nav .nav-container .logo {
+    height: 40px;
+  }
+  nav .nav-container .hamburger {
+    display: block;
+  }
+  nav .nav-container #navigation {
     display: none;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 8%;
+    -webkit-transition: transform 1s ease-out, visibility 1s;
+    -moz-transition: transform 1s ease-out, visibility 1s;
+    -o-transition: transform 1s ease-out, visibility 1s;
+    -ms-transition: transform 1s ease-out, visibility 1s;
+    transition: transform 1s ease-out, visibility 1s;
+  }
+  nav .nav-container #navigation .navlinks {
+    flex-direction: column;
+  }
+  nav .nav-container #navigation .navlinks .navlink {
+    margin: 0.5rem 1rem;
   }
 
   .posts {
