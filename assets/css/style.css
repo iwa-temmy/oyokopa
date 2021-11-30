@@ -247,8 +247,15 @@ footer form button {
   padding: 1rem;
   background-color: #F2F3F6;
 }
+.contact-us #contact {
+  height: 480px;
+}
+.contact-us #contact h5 {
+  padding: 0.5rem 0;
+}
 .contact-us p {
   font-size: 0.9rem;
+  margin-bottom: 0;
 }
 .contact-us .d-flex {
   padding: 1rem 0;
@@ -258,6 +265,40 @@ footer form button {
 }
 .contact-us ul {
   margin: 0.2rem 0;
+}
+.contact-us .media ul li {
+  padding: 0 1rem;
+}
+.contact-us .media ul li a {
+  display: flex;
+  color: #000;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-us .media ul li a p {
+  margin-left: 8px;
+}
+
+.departments {
+  padding: 3rem 2rem;
+}
+.departments .bg {
+  background-color: #fff !important;
+  border-radius: 16px;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 5px 10px rgba(94, 84, 84, 0.2);
+}
+.departments .bg span {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  width: fit-content;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: #008753;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 576px) {
@@ -326,10 +367,11 @@ footer form button {
   .local-government .card .cardinal-image {
     height: 200px;
   }
-}
-.contact-us {
-  padding: 3rem 1rem;
-}
-.contact-us form {
-  width: 100%;
+
+  .contact-us {
+    padding: 3rem 1rem;
+  }
+  .contact-us form {
+    width: 100%;
+  }
 }

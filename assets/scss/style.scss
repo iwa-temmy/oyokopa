@@ -281,6 +281,7 @@ footer {
   }
 }
 
+//Contact-us page
 .contact-us {
   padding: 3rem 2rem;
 
@@ -306,8 +307,17 @@ footer {
     }
   }
 
+  #contact {
+    height: 480px;
+
+    h5 {
+      padding: 0.5rem 0;
+    }
+  }
+
   p {
     font-size: 0.9rem;
+    margin-bottom: 0;
   }
 
   .d-flex {
@@ -320,6 +330,48 @@ footer {
 
   ul {
     margin: 0.2rem 0;
+  }
+
+  .media {
+    ul {
+      li {
+        padding: 0 1rem;
+
+        a {
+          display: flex;
+          color: #000;
+          text-decoration: none;
+          align-items: center;
+          justify-content: space-between;
+
+          p {
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//Departments page
+.departments {
+    padding: 3rem 2rem;
+  .bg {
+    background-color: #fff !important;
+    border-radius: 16px;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 5px 10px rgba(94, 84, 84, 0.2);
+    span{
+      padding: 0.5rem 1rem;
+      color: #fff;
+      width: fit-content;
+      display: flex;
+      margin: 0 auto;
+      border-radius: 8px;
+      background-color: $primary-color;
+      margin-bottom: 1rem;
+    }
   }
 }
 
@@ -405,12 +457,13 @@ footer {
       }
     }
   }
-}
 
-.contact-us {
-  padding: 3rem 1rem;
+  //Contact-us page
+  .contact-us {
+    padding: 3rem 1rem;
 
-  form {
-    width: 100%;
+    form {
+      width: 100%;
+    }
   }
 }
