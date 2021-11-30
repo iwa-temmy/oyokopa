@@ -355,7 +355,8 @@ footer {
 
 //Departments page
 .departments {
-    padding: 3rem 2rem;
+  padding: 4rem 2rem;
+
   .bg {
     background-color: #fff !important;
     border-radius: 16px;
@@ -363,7 +364,8 @@ footer {
     padding: 1.5rem;
     height: 970px;
     box-shadow: 0 5px 10px rgba(94, 84, 84, 0.2);
-    span{
+
+    span {
       padding: 0.5rem 1rem;
       color: #fff;
       width: fit-content;
@@ -465,6 +467,15 @@ footer {
 
     form {
       width: 100%;
+    }
+  }
+
+  //Departments page
+  .departments {
+    padding: 4rem 1rem;
+
+    .bg {
+      height: 100%;
     }
   }
 }

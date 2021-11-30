@@ -281,7 +281,7 @@ footer form button {
 }
 
 .departments {
-  padding: 3rem 2rem;
+  padding: 4rem 2rem;
 }
 .departments .bg {
   background-color: #fff !important;
@@ -374,5 +374,12 @@ footer form button {
   }
   .contact-us form {
     width: 100%;
+  }
+
+  .departments {
+    padding: 4rem 1rem;
+  }
+  .departments .bg {
+    height: 100%;
   }
 }
