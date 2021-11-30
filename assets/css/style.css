@@ -38,15 +38,31 @@ nav #navigation .navlinks .navlink a {
   text-decoration: none;
 }
 
-.carousel {
-  padding: 3rem 0;
+.hero {
+  padding: 3rem 2rem;
 }
-.carousel img {
+.hero img {
   width: 100%;
+}
+.hero .carousel-caption {
+  right: unset;
+  left: 4%;
+  padding-bottom: 0rem;
+  text-align: unset;
+}
+.hero .carousel-caption span {
+  padding: 0.5rem 1rem;
+  background-color: #FB6F92;
+  color: #fff;
+}
+.hero .carousel-caption p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .posts {
-  padding: 5rem 2rem 5rem 2.7rem;
+  padding: 3rem 2rem 3rem 2.7rem;
   background-color: #fff;
 }
 .posts h1 {
@@ -154,6 +170,13 @@ footer form button {
   color: #008753;
   border: none;
   border-radius: 8px;
+}
+footer .media-links {
+  padding-left: 2rem;
+}
+footer .media-links a {
+  color: #fff;
+  padding: 0 0.4rem;
 }
 
 .post {

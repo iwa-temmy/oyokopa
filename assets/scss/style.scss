@@ -50,16 +50,32 @@ nav {
   }
 }
 
-.carousel {
-  padding: 3rem 0;
-
+.hero {
+  padding: 3rem 2rem;
   img {
     width: 100%;
+  }
+  .carousel-caption{
+    right: unset;
+    left: 4%;
+    padding-bottom: 0rem;
+    text-align: unset;
+    span{
+      padding: 0.5rem 1rem;
+      background-color: #FB6F92;
+      color: #fff;
+     
+    }
+    p{
+       margin-top: 1rem;
+       font-size: 2rem;
+       font-weight: 600;
+    }
   }
 }
 
 .posts {
-  padding: 5rem 2rem 5rem 2.7rem;
+  padding: 3rem 2rem 3rem 2.7rem;
   background-color: #fff;
 
   h1 {
@@ -186,6 +202,13 @@ footer {
       color: $primary-color;
       border: none;
       border-radius: 8px;
+    }
+  }
+  .media-links{
+    padding-left: 2rem;
+    a{
+      color: #fff;
+      padding: 0 0.4rem;
     }
   }
 }
@@ -356,7 +379,6 @@ footer {
 //Departments page
 .departments {
   padding: 4rem 2rem;
-
   .bg {
     background-color: #fff !important;
     border-radius: 16px;
