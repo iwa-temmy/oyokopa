@@ -288,6 +288,7 @@ footer form button {
   border-radius: 16px;
   margin-top: 1.5rem;
   padding: 1.5rem;
+  height: 970px;
   box-shadow: 0 5px 10px rgba(94, 84, 84, 0.2);
 }
 .departments .bg span {
