@@ -52,24 +52,28 @@ nav {
 
 .hero {
   padding: 3rem 2rem;
+
   img {
     width: 100%;
   }
-  .carousel-caption{
+
+  .carousel-caption {
     right: unset;
     left: 4%;
     padding-bottom: 0rem;
     text-align: unset;
-    span{
+
+    span {
       padding: 0.5rem 1rem;
       background-color: #FB6F92;
       color: #fff;
-     
+
     }
-    p{
-       margin-top: 1rem;
-       font-size: 2rem;
-       font-weight: 600;
+
+    p {
+      margin-top: 1rem;
+      font-size: 2rem;
+      font-weight: 600;
     }
   }
 }
@@ -204,9 +208,11 @@ footer {
       border-radius: 8px;
     }
   }
-  .media-links{
+
+  .media-links {
     padding-left: 2rem;
-    a{
+
+    a {
       color: #fff;
       padding: 0 0.4rem;
     }
@@ -379,15 +385,6 @@ footer {
 //Departments page
 .departments {
   padding: 4rem 2rem;
-  .bg {
-    background-color: #fff !important;
-    border-radius: 16px;
-    margin-top: 1.5rem;
-    padding: 1.5rem;
-    height: 1000px;
-    box-shadow: 0 5px 10px rgba(94, 84, 84, 0.2);
-    overflow-y: scroll;
-
     span {
       padding: 0.5rem 1rem;
       color: #fff;
@@ -398,10 +395,18 @@ footer {
       background-color: $primary-color;
       margin-bottom: 1rem;
     }
+  .bg {
+    background-color: #fff !important;
+    border-radius: 16px;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    height: 1000px;
+    box-shadow: 0 5px 10px rgba(94, 84, 84, 0.2);
+    overflow-y: scroll;
   }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 35em) {
 
   nav {
     background-color: $background;
@@ -412,7 +417,7 @@ footer {
       flex-wrap: wrap;
 
       .logo {
-        height: 40px;
+        height: 30px;
       }
 
       .hamburger {
@@ -424,6 +429,7 @@ footer {
         width: 100%;
         margin-left: 0;
         margin-top: 8%;
+        margin-left: 5%;
         -webkit-transition: transform 1s ease-out, visibility 1s;
         -moz-transition: transform 1s ease-out, visibility 1s;
         -o-transition: transform 1s ease-out, visibility 1s;
@@ -499,6 +505,25 @@ footer {
 
     .bg {
       height: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+    .logo {
+      height: 50px;
+    }
+
+    #navigation {
+      margin-left: 6%;
+
+      .navlinks {
+        margin-left: -10%;
+        a {
+          padding: 0 0.2rem
+        }
+      }
     }
   }
 }
